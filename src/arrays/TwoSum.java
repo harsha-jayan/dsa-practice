@@ -15,10 +15,10 @@ public class TwoSum {
         Map<Integer, Integer> map = new HashMap();
 
         for(int i=0;i< arr.length;i++){
-            int sno = target - arr[i];
+            int secondNumber = target - arr[i];
 
-            if(map.containsKey(sno)) {
-                answer[0] = map.get(sno);
+            if(map.containsKey(secondNumber)) {
+                answer[0] = map.get(secondNumber);
                 answer[1] = i;
                 break;
             }
