@@ -1,22 +1,19 @@
+/*
+package streams.filter;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class MainClass {
+
+    static List<Employee> empList = List.of(
+            new Employee(1,"Harsha1",31,5000),
+            new Employee(2,"Harsha2",31,8999),
+            new Employee(3,"Harsha3",24,8739),
+            new Employee(4,"Harsha4",30,4567),
+            new Employee(5,"Harsha5",28,9847)
+    );
     public static void main(String[] args) {
-
-        Employee employee1 = new Employee(1,"Harsha1",31);
-        Employee employee2 = new Employee(2,"Harsha2",31);
-        Employee employee3 = new Employee(3,"Harsha3",24);
-        Employee employee4 = new Employee(4,"Harsha4",30);
-        Employee employee5 = new Employee(5,"Harsha5",28);
-
-        List<Employee> empList = new ArrayList<>();
-
-        empList.add(employee1);
-        empList.add(employee2);
-        empList.add(employee3);
-        empList.add(employee4);
-        empList.add(employee5);
 
         Map<Integer,List<Employee>> groupedByAge = empList
                                                    .stream()
@@ -70,3 +67,4 @@ public class MainClass {
 
     }
 }
+*/

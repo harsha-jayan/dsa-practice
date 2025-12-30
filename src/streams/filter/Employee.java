@@ -1,4 +1,4 @@
-
+package streams.filter;
 
 public class Employee {
 
@@ -7,12 +7,27 @@ public class Employee {
     private int age;
     private String address;
 
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    private int salary;
+
     public Employee(){};
 
-    public Employee(int id, String name, int age) {
+    public Employee(int id, String name, int age, int salary) {
         this.id = id;
         this.name = name;
         this.age = age;
+        this.salary = salary;
     }
 
     public int getId() {
@@ -30,6 +45,7 @@ public class Employee {
                 ", name='" + name + '\'' +
                 ", age=" + age +
                 ", address='" + address + '\'' +
+                ", salary='" + salary + '\'' +
                 '}';
     }
 
